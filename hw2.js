@@ -42,7 +42,7 @@ function addValues(a, b) {
   else if (typeof a === 'string') {
     res = a + stringifyValue(b)
   }
-  // Array concatenation
+  // Array sum
   else if (Array.isArray(a) && Array.isArray(b)) {
     res = sumArrays(a, b)
   }
